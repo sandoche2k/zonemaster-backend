@@ -50,8 +50,7 @@ sub create_db {
                         progress integer DEFAULT 0,
                         params_deterministic_hash character varying(32),
                         params json NOT NULL,
-                        results json DEFAULT NULL,
-                        nb_retries integer NOT NULL DEFAULT 0
+                        results json DEFAULT NULL
                 )
         '
     );
